@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How to make MongoDB run as a Windows service
 layout: post
 ---
@@ -30,9 +30,12 @@ storage: <br>
 
 Save the text as mongodb.cfg inside the folder you created earlier.
 <p>
-<b>Step 3:</b> Install MongoDB service<br>
+<b>Step 3:</b> Install MongoDB service and start service<br>
 cd to the <i>bin</i> directory where MongoDB was installed
 In the command prompt enter the following
 <b><code>
-mongod --config "path to your mongodb.cfg file" --install
-</b></code>
+mongod --config "path to your mongodb.cfg file" --install <br>
+net start mongod
+</code></b>
+<br><br>
+After which MongoDB will start running as a service, to test you can run <b>mongo</b> and it will connect to the mongod server without having to keep any terminal running the server open
