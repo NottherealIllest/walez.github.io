@@ -1,10 +1,29 @@
 excerpt_separator: ""
-pygments: true
 markdown: kramdown
+permalink: pretty
+highlighter: pygments
+
+paginate: 10
+paginate_path: "/page/:num"
 url: http://walez.github.io
 name: Martins Wale
-description: Web development Journey
+description: Software development Journey
 author: Wale
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
+author-bio: "I'm a dog. I develop things. This is my blog so why don't you close this damn side panel (cursed by most UX Designers but I don't care, I do whatever I want) and start reading my awesome stuff?"
 avatar: http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=120&d=mm&r=g
-ga_domain: 
-ga_tracking_id: 
+ga_domain:
+ga_tracking_id:
+
+# Social Accounts (mine, as placeholders)
+
+twitter: mx3m
+github: m3xm
+dribbble: m3xm
+instagram: m3xm
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: :compressed
