@@ -1,7 +1,7 @@
 excerpt_separator: ""
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 
 paginate: 10
 paginate_path: "/page/:num"
