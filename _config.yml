@@ -5,7 +5,7 @@ highlighter: rouge
 
 paginate: 10
 paginate_path: "/page/:num"
-url: http://walez.github.io
+url: https://walez.github.io
 name: Martins Wale
 description: Software development Journey
 author: Wale
@@ -20,9 +20,12 @@ ga_tracking_id: UA-96553874-1
 twitter: wale_martin
 github: walez
 instagram: walez18
+email: martinsadewalehakeem@gmail.com
 
 # SCSS
 
 sass:
   sass_dir: _scss
   style: :compressed
+
+gems: [jekyll-paginate]
